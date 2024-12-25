@@ -78,7 +78,7 @@ nav ul li a {
 
 .section {
     padding: auto;
-    margin: 20px 0;
+    margin-top: 20px;
     background: #18203a;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
