@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachary Conti Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Zachary Conti</h1>
+            <p>Aspiring Software Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="about-container">
+            <div class="profile-picture">
+                <img src="profile.jpg">
+            </div>
+            <div class="about">
+            <h2>About Me</h2>
+            <p>I am a Computer Science student at Virginia Tech with a passion for software development, problem-solving, 
+                and creating impactful projects. I have experience with Object-Oriented Programming, Low-Level Programming,
+                Web Development, and Assembly.  I have a passion for learning new technologies within the field of 
+                Computer Science and love to be challenged with new problems.  I am currently searching for internship opportunities
+                for Summer 2025 in Software Engineering, Cybersecurity, or Information Technology.  Feel free to reach
+                out below to connect!
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Stock and Weather Reporting Bot &emsp; <a class="first-link" href="https://github.com/zconti/PABot">GitHub Link</a> &emsp; <a href="./CloudandStocks.py" download>Download</a></h3>
+                <ul>
+                    <li>Utilized web scraping to display weather information from TheWeatherChannel that is updated in real-time as well as the top 5
+                        stock gainers and top 5 losers from Yahoo Finance, which is also updated in real-time.</li>
+                    <li>Allowed for user input to allow the keywords “stocks” and “weather” to be sent in, so that the program knows what type of
+                        information to output for the user</li>
+                    <li>Made using Python, with usage of the BeautifulSoup imported library.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <ul>
+                    <li>Built a portfolio website to display my personal summary, projects, and contact information, while improving my knowledge in
+                        web development in the process.</li>
+                    <li>Used HTML to construct the majority of the website before researching ways to improve the flow of my code</li>
+                    <li> Styled the website using CSS stylesheets to make the website colorful and enforcing my knowledge of front-end development.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Social Media Engagement Project</h3>
+                <ul>
+                    <li>Worked with a team of 4 other computer science students to create an object-oriented program to calculate and display levels of
+                        engagement on social media channels.</li>
+                    <li>Lead the creation of the GUI and calculator class, which contained the algorithm used to sort through the engagement data based
+                        on type and compile it into engagement totals to be displayed.</li>
+                    <li>The program was created using Java and when calculating engagement levels, the calculation could be modified to specify certain
+                        months, quarters, or types of engagement.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Python, Java, C, Javascript, C++, x86 Assembly, MATLAB, SQL</li>
+                <li>Scripting: BASH, Python</li>
+                <li>Tools: Git, Docker, VSCode, BeautifulSoup, PyScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="form-container">
+            <form class="form">
+            <h2>Contact</h2>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Email: <a href="mailto:zconti@vt.edu">zconti@vt.edu</a> &emsp; LinkedIn: <a href="https://www.linkedin.com/in/zac-conti/">linkedin.com/in/zac-conti</a> &emsp; GitHub: <a href="https://github.com/zconti">github.com/zconti</a></p>
+        <p>&copy; 2024 Zachary Conti. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
